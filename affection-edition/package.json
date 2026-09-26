@@ -1,0 +1,28 @@
+{
+  "name": "whale-pet-affection",
+  "version": "7.0.0",
+  "description": "鲸鱼娘桌宠·好感版 —— DeepSeek 余额小鲸鱼 Electron 桌宠，基于 MeteorNOX/DeepSeek-Balance-Whale-Widget (MIT) 修改，不含上游美术素材",
+  "main": "main.js",
+  "private": true,
+  "license": "MIT",
+  "author": "M1ku831",
+  "scripts": {
+    "start": "electron ."
+  },
+  "original": {
+    "direct-upstream": {
+      "project": "DeepSeek-Whale-widget-desktop",
+      "author": "comreade-123",
+      "url": "https://github.com/comreade-123/DeepSeek-Whale-widget-desktop"
+    },
+    "upstream": {
+      "project": "DeepSeek-Balance-Whale-Widget",
+      "author": "MeteorNOX",
+      "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget"
+    },
+    "note": "assets/ 素材版权按上游 PROVENANCE.md 归上游所有，未随本仓库分发"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}
